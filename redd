@@ -24,4 +24,4 @@ window.daniyalClicker = setInterval(() => {
     if (btn) {
         btn.click();
     }
-}, 200);
+}, 300);
