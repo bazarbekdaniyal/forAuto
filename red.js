@@ -17,7 +17,7 @@ console.log(
 "color:#b200ff; font-size:18px; font-weight:bold;"
 );
 
-console.log("%c[Autoclicker] Started (200ms interval)", "color:#aa00ff; font-weight:bold;");
+console.log("%cStarted", "color:#aa00ff; font-weight:bold;");
 
 window.daniyalClicker = setInterval(() => {
     const btn = document.querySelector(".right-page-navigation");
