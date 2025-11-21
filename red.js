@@ -1,30 +1,4 @@
-console.log(
-`%c
- /$$$$$$$                      /$$                     /$$
-| $$__  $$                    |__/                    | $$
-| $$  \\ $$  /$$$$$$  /$$$$$$$  /$$ /$$   /$$  /$$$$$$ | $$
-| $$  | $$ |____  $$| $$__  $$| $$| $$  | $$ |____  $$| $$
-| $$  | $$  /$$$$$$$| $$  \\ $$| $$| $$  | $$  /$$$$$$$| $$
-| $$  | $$ /$$__  $$| $$  | $$| $$| $$  | $$ /$$__  $$| $$
-| $$$$$$$/|  $$$$$$$| $$  | $$| $$|  $$$$$$$|  $$$$$$$| $$
-|_______/  \\_______/|__/  |__/|__/ \\____  $$ \\_______/|__/
-                                   /$$  | $$              
-                                  |  $$$$$$/              
-                                   \\______/               
 
-                ✨ Dev by: Daniyal ✨
-`,
-"color:#b200ff; font-size:18px; font-weight:bold;"
-);
-
-console.log("%cStarted", "color:#aa00ff; font-weight:bold;");
-
-window.daniyalClicker = setInterval(() => {
-    const btn = document.querySelector(".right-page-navigation");
-    if (btn) {
-        btn.click();
-    }
-}, 200);
 
 window.stopDaniyal = () => {
     clearInterval(window.daniyalClicker);
